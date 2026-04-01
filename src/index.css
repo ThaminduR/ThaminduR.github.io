@@ -100,19 +100,47 @@ a:hover {
 
 /* Home */
 .hero {
-  padding: 48px 0 32px;
+  padding: 48px 0 40px;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .hero h1 {
   font-size: 32px;
   font-weight: 600;
   color: var(--color-heading);
-  margin: 0 0 8px;
+  margin: 0 0 4px;
 }
 
-.hero-subtitle {
-  color: var(--color-muted);
-  margin: 0;
+.hero-role {
+  color: var(--color-accent);
+  font-size: 15px;
+  margin: 0 0 16px;
+  font-weight: 500;
+}
+
+.hero-bio {
+  color: var(--color-text);
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0 0 20px;
+  max-width: 560px;
+}
+
+.hero-links {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.projects-section {
+  padding: 32px 0 48px;
+}
+
+.projects-section h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-heading);
+  margin: 0 0 20px;
 }
 
 /* App Grid */
@@ -120,7 +148,6 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 16px;
-  padding-bottom: 48px;
 }
 
 /* App Card */
